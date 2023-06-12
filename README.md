@@ -1,6 +1,6 @@
 # Machine Learning - Classificação do Risco de Crédito
 
-![banks-that-offer-personal-loans_resized](https://user-images.githubusercontent.com/108491443/210626457-80244586-d0e9-48f5-b8e2-ad983a3cfb61.png)
+![capa_ml_rlg](https://github.com/Cassiophysics/ML_classificacao_credito_risco/assets/108491443/9e460f0f-ae4b-467f-b722-ad6a06bf1b5f)
 
 Este é um projeto de Machine Learning de aprendizado supervisionado que visa a elaboração de um modelo capaz de classificar quando um empréstimo foi bom e quando foi ruim.  Para tal finalidade, o conjunto de dados utilizado foi obtido a partir do site [KAGGLE](https://www.kaggle.com/datasets/uciml/german-credit), mas também pode ser encontrado em  [UCI](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)). Este Dataset contém uma gama de atributos de clientes a fim de se prever o risco do empréstimo.
 
