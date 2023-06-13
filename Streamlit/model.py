@@ -82,9 +82,6 @@ X_numerical_scaled = scaler.fit_transform(X_numerical)
 # Salvar o StandardScaler
 joblib.dump(scaler, 'standard_scaler.sav')
 
-# Salvar o Modelo Final
-#joblib.dump(xgbr2, "xgbr2_model.sav")
-
 
 
 

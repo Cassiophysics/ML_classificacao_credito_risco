@@ -3,7 +3,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-from sklearn.preprocessing import StandardScaler
 
 # Carregar o modelo
 modelo_lr = joblib.load('modelo_lr.sav')
@@ -12,7 +11,7 @@ modelo_lr = joblib.load('modelo_lr.sav')
 scaler = joblib.load('standard_scaler.sav')
 
 # Criar a interface do Streamlit
-st.title('Título do App')
+st.title('💳 Sistema de Aprovação de Empréstimos')
 st.header('Insira os Dados')
 
 # Opções para as colunas de escolha
@@ -53,7 +52,8 @@ X = pd.DataFrame({
 X[['idade', 'credito', 'duracao']] = scaler.transform(X[['idade', 'credito', 'duracao']])
 
 # Fazer a previsão usando o modelo carregado
-resultado = modelo_lr.predict(X)
-st.header('Resultado da Previsão')
-previsao_formatada = np.round(resultado.item(), 2)
-st.write(f'A previsão é: {previsao_formatada}')
+if st.button('Fazer Previsão'):
+    resultado = modelo_lr.predict(X)
+    st.header('Resultado da Previsão')
+    previsao = "Empréstimo Aprovado!" if resultado == 0 else "Empréstimo Negado!"
+    st.write(f'A previsão é: {previsao}')
