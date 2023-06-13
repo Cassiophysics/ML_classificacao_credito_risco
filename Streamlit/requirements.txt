@@ -5,7 +5,8 @@ seaborn==0.12.1
 plotly==5.11.0
 streamlit==1.23.1
 joblib==1.2.0
-xgboost==1.6.2
 scikit-learn==1.0.2
+imbalanced-learn==0.10.0
+
 
 
