@@ -2,6 +2,8 @@
 
 ![capa_ml_rlg](https://github.com/Cassiophysics/ML_classificacao_credito_risco/assets/108491443/9e460f0f-ae4b-467f-b722-ad6a06bf1b5f)
 
+## Teste você mesmo o modelo: [💳 SISTEMA DE APROVAÇÃO DE EMPRÉSTIMOS](https://cassiophysics-ml-classificacao-credito-risc-streamlitapp-8jj1cb.streamlit.app/)
+
 Este é um projeto de Machine Learning de aprendizado supervisionado que visa a elaboração de um modelo capaz de classificar quando um empréstimo foi bom e quando foi ruim.  Para tal finalidade, o conjunto de dados utilizado foi obtido a partir do site [KAGGLE](https://www.kaggle.com/datasets/uciml/german-credit), mas também pode ser encontrado em  [UCI](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)). Este Dataset contém uma gama de atributos de clientes a fim de se prever o risco do empréstimo.
 
 Neste projeto foi feito o uso de Pipelines para dar maior legibilidade ao código, facilitar a leitura do código, forçar a execução das transformações na ordem correta e tornar o script mais reproduzível. E as métricas definidas para a escolha do modelo mais adequado foram:
