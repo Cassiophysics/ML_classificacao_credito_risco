@@ -1,6 +1,6 @@
 # Machine Learning - Classificação do Risco de Crédito
 
-![capa_ml_rlg](https://github.com/Cassiophysics/ML_classificacao_credito_risco/assets/108491443/9e460f0f-ae4b-467f-b722-ad6a06bf1b5f)
+![capa_ml_rlg](https://github.com/Cassiophysics/ML_classificacao_credito_risco/assets/108491443/4bb91092-6948-48e5-ba8d-945fbffeafd3)
 
 ## Teste você mesmo o modelo: [💳 SISTEMA DE APROVAÇÃO DE EMPRÉSTIMOS](https://cassiophysics-ml-classificacao-credito-risc-streamlitapp-8jj1cb.streamlit.app/)
 
