@@ -34,7 +34,7 @@ Ao ter conjuntos de dados com classes desbalanceadas pode-se levar a modelos de 
 
 A otimização de hiperparâmetros é importante porque diferentes conjuntos de hiperparâmetros podem resultar em modelos com desempenhos significativamente melhores. Além disso, os hiperparâmetros podem afetar a velocidade do treinamento do modelo e a capacidade de generalização do modelo para novos dados. Para tal finalidade, foi utilizado GridSearchCV e RandomizedSearchCV para obter os hiperparâmetros mais adequados. Entretanto, como tivemos que definir uma única métrica previamente, os melhores hiperparâmetros encontrados consideram somente essa métrica, o que não leva aos melhores resultados segundo os critérios definidos neste projeto.
 
-## Resultado Final:
+## Resultado Final do Modelo:
 
 Conforme os critérios que definimos, o modelo baseline LogisticRegression com peso 3.22 para a classe 1, apresentou o melhor resultado, com recall 0.80, f1-score 0.59, diferença entre falsos positivos e falsos negativos, igual a 50 e uma acurácia de 0.61. Ou seja, de todos os empréstimos presentes na amostra que realmente foram ruins (Falsos Negativos) nosso modelo conseguiu acertar 80%, mas também manteve um número razoável de empréstimos bons classificados erroneamente como ruins (Falsos Positivos). A escolha do modelo ideal deve ser feita conforme as métricas de negócio estabelecidas. Se o custo de perder um empréstimo ruim supera em muito o custo de cancelar vários empréstimos legítimos, ou seja, falsos positivos, talvez possamos escolher um peso que nos dê uma taxa de recall mais alta. Isso ocorre porque aumentamos nossa pontuação de recall de maus empréstimos à custa de mais casos legítimos mal classificados.
 
