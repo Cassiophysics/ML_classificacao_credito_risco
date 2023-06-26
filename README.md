@@ -20,7 +20,7 @@ Ao desenvolver esse projeto, busquei não apenas aprimorar minhas habilidades em
 
 Ao disponibilizar esse projeto no GitHub, espero compartilhar conhecimento e incentivar a colaboração com outros profissionais e entusiastas da área. Além disso, acredito que essa iniciativa pode contribuir para a transparência e aprimoramento dos processos de concessão de crédito, beneficiando tanto as instituições financeiras quanto os clientes em busca de empréstimos.
 
-Estou entusiasmado com os resultados alcançados neste projeto e confiante de que ele pode ter um impacto positivo no setor financeiro. Convido você a explorar o código, os dados e os resultados apresentados neste repositório e a se juntar a mim nessa jornada em busca de soluções inovadoras para o mercado de empréstimos.
+Estou entusiasmado com os resultados alcançados neste projeto. Convido você a explorar o código, os dados e os resultados apresentados neste repositório e a se juntar a mim nessa jornada em busca de soluções para o mercado de empréstimos.
 
 Neste projeto foi feito o uso de Pipelines para dar maior legibilidade ao código, facilitar a leitura do código, forçar a execução das transformações na ordem correta e tornar o script mais reproduzível. E as métricas definidas para a escolha do modelo mais adequado foram:
 
